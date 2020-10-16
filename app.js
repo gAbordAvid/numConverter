@@ -34,7 +34,11 @@ function numConverter (num,res) {
     }
     
   }
-document.getElementById(res).innerHTML = wordOfNums;
+
+    
+  document.getElementById(res).innerHTML = wordOfNums;
+    
+    
       
   }
 

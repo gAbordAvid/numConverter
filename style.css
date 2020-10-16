@@ -25,3 +25,10 @@ p{
     border-bottom: 2px solid green;
     font-weight: bold;
 }
+.help{
+    display: block;
+    padding-top: 2%;
+}
+.help p{
+    font-size: 2vh;
+}
