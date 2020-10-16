@@ -1,18 +1,27 @@
 .form-position{
-    display: flex !important;
+    width: 100%;
+    display: flex;
     justify-content: center;
-    align-items: center;
 }
 form{
     height: auto;
-   width: 20%;
-   border: 2px solid red;
-  
+    width: 30%;
+    margin-top: 10%;
+    padding-top: 2%;
+    border: 4px solid red;
+    font-family: 'Chilanka', cursive;
+}
+h1{
+    font-size: 10vh;
+}
+p{
+    font-size: 5vh;
 }
 #displayHere{
     margin-top: 5%;
     width: 100%;
     height: 20vh;
-    border-top: 1px solid green;
-    border-bottom: 1px solid green;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    font-weight: bold;
 }

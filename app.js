@@ -24,6 +24,13 @@ function numConverter (num,res) {
        wordOfNums = tenToNinety[Math.floor(x/(10*Math.pow(1000,i)))] + '-' + oneToNineTeen[Math.floor(x/Math.pow(1000,i))%10] + bigNums[i] + ' ' +wordOfNums;
     
       }
+      /*getting the word "hundreds" searching backwards
+        
+        123456 => one hundred four hundred
+      */ 
+        x = num%(Math.pow(1000,i+1));
+        if (Math.floor(x/(100*Math.pow(1000,i))) !== 0)wordOfNums = oneToNineTeen[Math.floor(x/(100*Math.pow(1000,i)))] + 'hundred ' +wordOfNums;
+        
     }
     
   }
